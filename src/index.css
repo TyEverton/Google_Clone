@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  gap: .7%;
+  font-size: 85%;
+}
+
+.leftNav {
+  color: #bdc1c6;
+}
+
+.rightNav {
+color: #ffffff;
+
+}
+
+.searchBar {
+  border-radius: 25px;
+  height: 3em;
+  width: 35em;
+  background-color: #282c34;
+  border-color: #bdc1c6;
+  border-style: solid;
+  border: .5%;
+}
+
+.title {
+  color: white;
+  font-size: 5em;
+  font-weight: 550;
+letter-spacing: -3px;
+}
