@@ -1,4 +1,5 @@
-import './App.css';
+import './index.css'
+import SearchBtns from "./SearchBtns"
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       </section>
       <h1 className="title">Google</h1>
       <input className="searchBar"></input>
+      <SearchBtns />
     </div>
+
   )
 }
 

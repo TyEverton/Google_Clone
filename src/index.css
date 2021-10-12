@@ -32,10 +32,17 @@ color: #ffffff;
   border-radius: 25px;
   height: 3em;
   width: 35em;
-  background-color: #282c34;
+  background-color:  #202124;
   border-color: #bdc1c6;
   border-style: solid;
-  border: .5%;
+  border-width: 1px;
+}
+
+.searchBtns {
+  color: #e8eaed;
+  background-color: #303134;
+  height: 2.5rem;
+  margin: 5px;
 }
 
 .title {
