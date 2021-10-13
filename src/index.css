@@ -12,23 +12,24 @@ code {
     monospace;
 }
 
-.navBar {
-  display: flex;
-  flex-direction: row;
-  gap: 0.7%;
-  font-size: 85%;
-}
+
 
 .leftNav {
   color: #bdc1c6;
   background-color: transparent;
   border-color: transparent;
+  position: relative;
+  left: 1%;
+  margin-top: 1%;
 }
 
 .rightNav {
   color: #ffffff;
   background-color: transparent;
   border-color: transparent;
+  position: relative;
+  left: 83%;
+  margin-top: 1%;
 }
 
 .searchBar {
