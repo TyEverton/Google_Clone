@@ -1,5 +1,7 @@
 import './index.css'
 import SearchBtns from "./SearchBtns"
+import icon from "./SearchIcon.png"
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
       </section>
       <h1 className="title">Google</h1>
       <input className="searchBar"></input>
+      <img className='searchIcon' src={icon}/>
       <SearchBtns />
     </div>
 

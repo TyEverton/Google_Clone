@@ -43,6 +43,10 @@ color: #ffffff;
   background-color: #303134;
   height: 2.5rem;
   margin: 5px;
+  border-color: transparent;
+  border-radius: 5px;
+  position: relative;
+  top: 2em;
 }
 
 .title {
@@ -50,4 +54,8 @@ color: #ffffff;
   font-size: 5em;
   font-weight: 550;
 letter-spacing: -3px;
+}
+
+.searchIcon {
+ size: 5rem;
 }
