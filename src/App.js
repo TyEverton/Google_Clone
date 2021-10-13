@@ -14,12 +14,14 @@ function App() {
         <button className="rightNav">Images</button>
       </section>
       <h1 className="title">Google</h1>
-      <input
-        className="searchBar"
-        // placeholder="Search Google or type a URL"
-      ></input>
-      {/* <img className='searchIcon' src={icon}/> */}
-      <SearchBtns />
+      <section>
+        <input
+          className="searchBar"
+          // placeholder="Search Google or type a URL"
+        ></input>
+        {/* <img className='searchIcon' src={icon}/> */}
+        <SearchBtns />
+      </section>
     </div>
   )
 }

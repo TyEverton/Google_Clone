@@ -4,8 +4,8 @@ import './index.css'
 function SearchBtns () {
   return (
     <section>
-      <button className="searchBtns">Google Search</button>
-      <button className="searchBtns">I'm Feeling Lucky</button>
+      <button className="searchBtns1">Google Search</button>
+      <button className="searchBtns2">I'm Feeling Lucky</button>
     </section>
   )
 }

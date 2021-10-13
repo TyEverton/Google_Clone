@@ -47,15 +47,28 @@ code {
   left: 0;
 }
 
-.searchBtns {
+.searchBtns1 {
   color: #e8eaed;
   background-color: #303134;
   height: 2.5rem;
-  margin: 5px;
   border-color: transparent;
   border-radius: 5px;
-  position: relative;
-  top: 2em;
+  position: absolute;
+  margin: auto;
+  left: 43%;
+  top: 54%;
+
+}
+.searchBtns2 {
+  color: #e8eaed;
+  background-color: #303134;
+  height: 2.5rem;
+  border-color: transparent;
+  border-radius: 5px;
+  position: absolute;
+  margin: auto;
+  left: 49%;
+  top: 54%;
 }
 
 .title {
@@ -64,9 +77,9 @@ code {
   font-weight: 550;
   letter-spacing: -3px;
   position: absolute;
-  top: 25%;
-    left: 50%;
-    right: 50%;
+  margin: auto;
+  top: 35%;
+  left: 43.5%;
 }
 
 .searchIcon {
