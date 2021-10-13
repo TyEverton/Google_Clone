@@ -1,6 +1,7 @@
 import './index.css'
 import SearchBtns from "./SearchBtns"
 // import icon from "./SearchIcon.png"
+import dotsIcon from "./DotsIcon.png"
 
 
 
@@ -20,6 +21,7 @@ function App() {
           // placeholder="Search Google or type a URL"
         ></input>
         {/* <img className='searchIcon' src={icon}/> */}
+        <img className="dotsIcon" src={dotsIcon}/>
         <SearchBtns />
       </section>
     </div>
