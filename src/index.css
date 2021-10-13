@@ -15,27 +15,36 @@ code {
 .navBar {
   display: flex;
   flex-direction: row;
-  gap: .7%;
+  gap: 0.7%;
   font-size: 85%;
 }
 
 .leftNav {
   color: #bdc1c6;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .rightNav {
-color: #ffffff;
-
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .searchBar {
   border-radius: 25px;
   height: 3em;
   width: 35em;
-  background-color:  #202124;
+  background-color: #202124;
   border-color: #bdc1c6;
   border-style: solid;
   border-width: 1px;
+  position: absolute;
+  margin: auto;
+   top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .searchBtns {
@@ -53,9 +62,12 @@ color: #ffffff;
   color: white;
   font-size: 5em;
   font-weight: 550;
-letter-spacing: -3px;
+  letter-spacing: -3px;
+  position: absolute;
+  top: 25%;
+    left: 50%;
+    right: 50%;
 }
 
 .searchIcon {
- size: 5rem;
 }
