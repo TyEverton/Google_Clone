@@ -35,14 +35,14 @@ code {
 .searchBar {
   border-radius: 25px;
   height: 3em;
-  width: 35em;
+  width: 40em;
   background-color: #202124;
   border-color: #bdc1c6;
   border-style: solid;
   border-width: 1px;
   position: absolute;
   margin: auto;
-   top: 0;
+  top: -18%;
   right: 0;
   bottom: 0;
   left: 0;
@@ -57,7 +57,7 @@ code {
   position: absolute;
   margin: auto;
   left: 43%;
-  top: 54%;
+  top: 45%;
 
 }
 .searchBtns2 {
@@ -69,7 +69,7 @@ code {
   position: absolute;
   margin: auto;
   left: 49%;
-  top: 54%;
+  top: 45%;
 }
 
 .title {
@@ -79,7 +79,7 @@ code {
   letter-spacing: -3px;
   position: absolute;
   margin: auto;
-  top: 35%;
+  top: 25%;
   left: 43.5%;
 }
 
