@@ -12,8 +12,6 @@ code {
     monospace;
 }
 
-
-
 .leftNav {
   color: #bdc1c6;
   background-color: transparent;
@@ -23,6 +21,10 @@ code {
   margin-top: 1%;
 }
 
+.leftNav:hover {
+  text-decoration: underline;
+}
+
 .rightNav {
   color: #ffffff;
   background-color: transparent;
@@ -30,6 +32,10 @@ code {
   position: relative;
   left: 83%;
   margin-top: 1%;
+}
+
+.rightNav:hover {
+  text-decoration: underline;
 }
 
 .searchBar {
@@ -58,7 +64,6 @@ code {
   margin: auto;
   left: 43%;
   top: 45%;
-
 }
 .searchBtns2 {
   color: #e8eaed;
@@ -89,17 +94,30 @@ code {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
-  height : 16px;
-  width : 16px;
+  height: 16px;
+  width: 16px;
   position: absolute;
   left: 95%;
   bottom: 96%;
 }
 
 .bento-dot {
-  width : 100%;
+  width: 100%;
   height: 100%;
   border-radius: 999px;
-  background:#e8eaed;
+  background: #e8eaed;
   overflow: hidden;
+}
+
+.bento-menu:hover {
+  cursor: pointer;
+  background-color: #3b3b3b9a;
+  border-color: #3b3b3b9a;
+  border-style: solid;
+  border-radius: 35px;
+  border-width: 13px;
+  position: absolute;
+  left: 94.3%;
+  bottom: 94.7%;
+  opacity: 1;
 }
