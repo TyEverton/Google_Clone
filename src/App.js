@@ -13,6 +13,17 @@ function App() {
         <button className="leftNav">Store</button>
         <button className="rightNav">Gmail</button>
         <button className="rightNav">Images</button>
+        <div class="bento-menu">
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+          <div class="bento-dot"></div>
+        </div>
       </section>
       <h1 className="title">Google</h1>
       <section>
@@ -20,8 +31,6 @@ function App() {
           className="searchBar"
           // placeholder="Search Google or type a URL"
         ></input>
-        {/* <img className='searchIcon' src={icon}/> */}
-        <img className="dotsIcon" src={dotsIcon}/>
         <SearchBtns />
       </section>
     </div>

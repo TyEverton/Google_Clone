@@ -83,9 +83,23 @@ code {
   left: 43.5%;
 }
 
-.searchIcon {
+.bento-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  height : 23px;
+  width : 23px;
+  position: absolute;
+  left: 95%;
+  bottom: 95.8%;
 }
 
-.dotsIcon {
-  
+.bento-dot {
+  width : .2em;
+  height: .2em;
+  /* border-radius: 999px; */
+  background:#e8eaed;
+  overflow: hidden;
 }
