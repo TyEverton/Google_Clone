@@ -44,7 +44,7 @@ code {
   border-radius: 25px;
   height: 3em;
   width: 40em;
-  background-color: #202124;
+ background-color: transparent;
   border-color: #bdc1c6;
   border-style: solid;
   border-width: 1px;
@@ -54,6 +54,14 @@ code {
   right: 0;
   bottom: 0;
   left: 0;
+  caret-color: #bdc1c6;
+  color: white;
+}
+
+.searchBar:hover {
+ background-color: rgb(63, 63, 63);
+ border-color: rgb(63, 63, 63);
+
 }
 
 .searchBtns1 {
@@ -157,4 +165,8 @@ code {
 .rightFooter:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.voiceIcon {
+  background: transparent;
 }
