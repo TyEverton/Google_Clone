@@ -121,3 +121,30 @@ code {
   bottom: 94.7%;
   opacity: 1;
 }
+
+.footer {
+  background-color: rgb(31, 31, 31);
+  height: 3em;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.leftFooter {
+  border: none;
+  background-color: transparent;
+  color: rgb(212, 212, 219);
+  position: relative;
+  left: 2%;
+  top: 25%;
+}
+
+.rightFooter {
+  border: none;
+  background-color: transparent;
+  color: rgb(225, 225, 230);
+  position: relative;
+  left: 75%;
+  top: 25%;
+}

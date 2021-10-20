@@ -25,11 +25,17 @@ function App() {
       </section>
       <h1 className="title">Google</h1>
       <section>
-        <input
-          className="searchBar"
-        ></input>
+        <input className="searchBar"></input>
         <SearchBtns />
       </section>
+      <footer class="footer">
+        <button class="leftFooter">Advertising</button>
+        <button class="leftFooter">Business</button>
+        <button class="leftFooter">How Search Works</button>
+        <button class="rightFooter">Privacy</button>
+        <button class="rightFooter">Terms</button>
+        <button class="rightFooter">Settings</button>
+      </footer>
     </div>
   )
 }
