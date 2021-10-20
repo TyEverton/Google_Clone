@@ -1,6 +1,6 @@
 import './index.css'
 import SearchBtns from "./SearchBtns"
-
+import Title from "./GoogleTitle.png" 
 
 
 function App() {
@@ -11,30 +11,31 @@ function App() {
         <button className="leftNav">Store</button>
         <button className="rightNav">Gmail</button>
         <button className="rightNav">Images</button>
-        <div class="bento-menu">
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
-          <div class="bento-dot"></div>
+        <div className="bento-menu">
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
+          <div className="bento-dot"></div>
         </div>
       </section>
-      <h1 className="title">Google</h1>
+      <img src={Title} alt="Google Title" className="title"/>
       <section>
         <input className="searchBar"></input>
         <SearchBtns />
       </section>
-      <footer class="footer">
-        <button class="leftFooter">Advertising</button>
-        <button class="leftFooter">Business</button>
-        <button class="leftFooter">How Search Works</button>
-        <button class="rightFooter">Privacy</button>
-        <button class="rightFooter">Terms</button>
-        <button class="rightFooter">Settings</button>
+
+      <footer className="footer">
+        <button className="leftFooter">Advertising</button>
+        <button className="leftFooter">Business</button>
+        <button className="leftFooter">How Search Works</button>
+        <button className="rightFooter">Privacy</button>
+        <button className="rightFooter">Terms</button>
+        <button className="rightFooter">Settings</button>
       </footer>
     </div>
   )

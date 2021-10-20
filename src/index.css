@@ -19,6 +19,7 @@ code {
   position: relative;
   left: 1%;
   margin-top: 1%;
+  font-size: 14px;
 }
 
 .leftNav:hover {
@@ -32,6 +33,7 @@ code {
   position: relative;
   left: 83%;
   margin-top: 1%;
+    font-size: 14px;
 }
 
 .rightNav:hover {
@@ -78,14 +80,9 @@ code {
 }
 
 .title {
-  color: white;
-  font-size: 5em;
-  font-weight: 550;
-  letter-spacing: -3px;
-  position: absolute;
-  margin: auto;
-  top: 25%;
-  left: 43.5%;
+ position: absolute;
+ left: 43%;
+ top: 25%;
 }
 
 .bento-menu {
@@ -123,28 +120,41 @@ code {
 }
 
 .footer {
-  background-color: rgb(31, 31, 31);
-  height: 3em;
+  background-color: rgb(27, 27, 27);
+  height: 3.5em;
   margin: auto;
   width: 100%;
   position: absolute;
   bottom: 0;
+
 }
 
 .leftFooter {
   border: none;
-  background-color: transparent;
-  color: rgb(212, 212, 219);
+  background: none;
+  color: #bdc1c6;
   position: relative;
   left: 2%;
-  top: 25%;
+  top: 30%;
+    font-size: 14px;
+}
+
+.leftFooter:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .rightFooter {
   border: none;
-  background-color: transparent;
-  color: rgb(225, 225, 230);
+  background: none;
+  color: #bdc1c6;
   position: relative;
   left: 75%;
-  top: 25%;
+  top: 30%;
+    font-size: 14px;
+}
+
+.rightFooter:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
