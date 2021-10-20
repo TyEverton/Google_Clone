@@ -1,7 +1,5 @@
 import './index.css'
 import SearchBtns from "./SearchBtns"
-// import icon from "./SearchIcon.png"
-import dotsIcon from "./DotsIcon.png"
 
 
 
@@ -29,7 +27,6 @@ function App() {
       <section>
         <input
           className="searchBar"
-          // placeholder="Search Google or type a URL"
         ></input>
         <SearchBtns />
       </section>

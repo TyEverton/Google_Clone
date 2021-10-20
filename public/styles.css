@@ -3,24 +3,24 @@ body {
 }
 
 .footer {
-  background-color: rgb(31, 31, 31);
+  /* background-color: rgb(31, 31, 31);
   height: 3em;
   margin: auto;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .leftNav {
-  border: none;
+  /* border: none;
   background-color: transparent;
-  color: blue;
+  color: blue; */
 }
 
 .rightNav {
-  border: none;
+  /* border: none;
   background-color: transparent;
   color: blue;
-  position: absolute;
+  position: absolute; */
   
 }
