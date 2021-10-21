@@ -67,9 +67,11 @@ code {
 .searchBtns1 {
   color: #e8eaed;
   background-color: #303134;
-  height: 2.5rem;
+  height: 2.4rem;
+  width: 6.7%;
+  font-size: 14px;
   border-color: transparent;
-  border-radius: 5px;
+  border-radius: 3px;
   position: absolute;
   margin: auto;
   left: 43%;
@@ -84,12 +86,14 @@ code {
 .searchBtns2 {
   color: #e8eaed;
   background-color: #303134;
-  height: 2.5rem;
+  height: 2.4rem;
+  width: 6.7%;
+  font-size: 14px;
   border-color: transparent;
-  border-radius: 5px;
+  border-radius: 3px;
   position: absolute;
   margin: auto;
-  left: 49%;
+  left: 50.5%;
   top: 45%;
    border: solid .7px transparent;
 }
