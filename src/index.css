@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+     overflow: hidden;
 }
 
 code {
@@ -144,7 +145,7 @@ code {
 
 .footer {
   background-color: rgb(27, 27, 27);
-  height: 3.5em;
+  height: 3em;
   margin: auto;
   width: 100%;
   position: absolute;
@@ -157,14 +158,17 @@ code {
   background: none;
   color: #bdc1c6;
   position: relative;
-  left: 2%;
+  left: 1%;
   top: 30%;
     font-size: 14px;
+      margin-left: 12px;
+   
 }
 
 .leftFooter:hover {
   cursor: pointer;
   text-decoration: underline;
+
 }
 
 .rightFooter {
@@ -172,9 +176,10 @@ code {
   background: none;
   color: #bdc1c6;
   position: relative;
-  left: 75%;
+  left: 71%;
   top: 30%;
     font-size: 14px;
+    margin-left: 12px;
 }
 
 .rightFooter:hover {
