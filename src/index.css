@@ -74,7 +74,13 @@ code {
   margin: auto;
   left: 43%;
   top: 45%;
+  border: solid .7px transparent;
 }
+
+.searchBtns1:hover {
+  border-color: #a1a1a1;
+}
+
 .searchBtns2 {
   color: #e8eaed;
   background-color: #303134;
@@ -85,6 +91,11 @@ code {
   margin: auto;
   left: 49%;
   top: 45%;
+   border: solid .7px transparent;
+}
+
+.searchBtns2:hover {
+  border-color: #a1a1a1;
 }
 
 .title {
