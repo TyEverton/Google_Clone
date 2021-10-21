@@ -43,14 +43,14 @@ code {
 .searchBar {
   border-radius: 25px;
   height: 3em;
-  width: 40em;
+  width: 42em;
  background-color: transparent;
   border-color: #bdc1c6;
   border-style: solid;
   border-width: 1px;
   position: absolute;
   margin: auto;
-  top: -18%;
+  top: -20%;
   right: 0;
   bottom: 0;
   left: 0;
@@ -90,7 +90,7 @@ code {
 .title {
  position: absolute;
  left: 43%;
- top: 25%;
+ top: 26%;
 }
 
 .bento-menu {
