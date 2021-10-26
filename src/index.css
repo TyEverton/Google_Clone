@@ -41,12 +41,11 @@ code {
   text-decoration: underline;
 }
 
-.searchBar {
+/* .searchBar {
   border-radius: 25px;
   height: 3em;
   width: 42em;
- background-color: transparent;
-  border-color: #bdc1c6;
+  background-color: transparent;
   border-style: solid;
   border-width: 1px;
   position: absolute;
@@ -57,13 +56,33 @@ code {
   left: 0;
   caret-color: #bdc1c6;
   color: white;
+} */
+
+.searchBar {
+      background: #202124;
+    display: flex;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.searchBox {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
 }
 
 .searchBar:hover {
- background-color: rgb(63, 63, 63);
- border-color: rgb(63, 63, 63);
-
+ background-color: red;
+ border-color: transparent;
 }
+
 
 .searchBtns1 {
   color: #e8eaed;
@@ -195,4 +214,8 @@ code {
   filter: invert(76%) saturate(3461%) hue-rotate(321deg) brightness(98%) contrast(91%);
   height: .8rem;
   width: .8rem;
+  position: absolute;
+  left: 36%;
+  top: 39.3%;
+  z-index: 1;
 }
