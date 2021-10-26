@@ -2,7 +2,7 @@ import './index.css'
 import SearchBtns from "./SearchBtns"
 import Title from "./GoogleTitle.png" 
 // import SearchByVoiceIcon from "./SearchByVoiceIcon.png"
-
+import SearchIcon from "./SearchIcon.png"
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
       </section>
       <img src={Title} alt="Google Title" className="title"/>
       {/* <img src={SearchByVoiceIcon} alt="Search by Voice" className="voiceIcon"/> */}
+      <img src={SearchIcon} alt="Search Icon" className="searchIcon" />
       <section>
         <input className="searchBar"></input>
         <SearchBtns />

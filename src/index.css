@@ -190,3 +190,7 @@ code {
 .voiceIcon {
   background: transparent;
 }
+
+.searchIcon {
+  filter: opacity(0.1) drop-shadow(0 0 0 rgb(253, 253, 253));
+}
