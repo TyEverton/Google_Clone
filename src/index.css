@@ -192,5 +192,7 @@ code {
 }
 
 .searchIcon {
-  filter: opacity(0.1) drop-shadow(0 0 0 rgb(253, 253, 253));
+  filter: invert(76%) saturate(3461%) hue-rotate(321deg) brightness(98%) contrast(91%);
+  height: .8rem;
+  width: .8rem;
 }
