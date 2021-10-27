@@ -231,3 +231,12 @@ code {
   width: 4.8%;
   font-size: 14px;
 }
+
+.voiceSearch {
+  background: transparent;
+  height: 3.7%;
+  width: 1.7%;
+  position: absolute;
+  top: 38%;
+  left: 62.5%;
+}
