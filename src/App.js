@@ -12,6 +12,7 @@ function App() {
         <button className="leftNav">Store</button>
         <button className="rightNav">Gmail</button>
         <button className="rightNav">Images</button>
+        <button className="signInBtn">Sign in</button>
         <div className="bento-menu">
           <div className="bento-dot"></div>
           <div className="bento-dot"></div>
