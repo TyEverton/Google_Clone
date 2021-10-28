@@ -234,9 +234,23 @@ code {
 
 .voiceSearch {
   background: transparent;
-  height: 3.7%;
+  height: 3.4%;
   width: 1.7%;
   position: absolute;
   top: 38%;
   left: 62.5%;
+}
+
+.carbonStatement {
+  position: absolute;
+  bottom: 1%;
+  left: 45%;
+  color: #bdc1c6;
+}
+
+.carbonImage {
+  height: .9em;
+  width: .6em;
+  position: relative;
+  right: 3.2%;
 }
