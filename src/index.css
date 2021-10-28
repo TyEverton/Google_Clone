@@ -79,7 +79,7 @@ code {
 }
 
 .searchBar:hover {
- background-color: red;
+ background-color: #303134;
  border-color: transparent;
 }
 
@@ -208,6 +208,7 @@ code {
 
 .voiceIcon {
   background: transparent;
+  z-index: 1;
 }
 
 .searchIcon {
