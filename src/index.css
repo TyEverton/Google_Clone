@@ -54,18 +54,6 @@ body {
   color: white;
 }
 
-/* .searchBar {
-      background: #202124;
-    display: flex;
-    border: 1px solid #5f6368;
-    box-shadow: none;
-    border-radius: 24px;
-    z-index: 3;
-    height: 44px;
-    margin: 0 auto;
-    width: auto;
-    max-width: 584px;
-} */
 
 .searchBox {
     flex: 1;
