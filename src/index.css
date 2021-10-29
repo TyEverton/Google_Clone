@@ -8,10 +8,6 @@ body {
      overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 .leftNav {
   color: #bdc1c6;
@@ -251,7 +247,16 @@ code {
 
 .carbonImage {
   height: .9em;
-  width: .6em;
+  width: .7em;
   position: relative;
   right: 3.2%;
+}
+
+.thankYouMessage {
+  color: #8ab4fb;
+  font-size: .8em;
+  font-weight: 550;
+  position: absolute;
+  top: 50%;
+  left: 43.5%;
 }
