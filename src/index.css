@@ -5,9 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-     overflow: hidden;
+  overflow: hidden;
 }
-
 
 .leftNav {
   color: #bdc1c6;
@@ -54,19 +53,17 @@ body {
   color: white;
 }
 
-
 .searchBox {
-    flex: 1;
-    display: flex;
-    padding: 5px 8px 0 16px;
-    padding-left: 14px;
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
 }
 
 .searchBar:hover {
- background-color: #303134;
- border-color: transparent;
+  background-color: #303134;
+  border-color: transparent;
 }
-
 
 .searchBtns1 {
   color: #e8eaed;
@@ -80,7 +77,7 @@ body {
   margin: auto;
   left: 43%;
   top: 45%;
-  border: solid .7px transparent;
+  border: solid 0.7px transparent;
 }
 
 .searchBtns1:hover {
@@ -99,7 +96,7 @@ body {
   margin: auto;
   left: 50.5%;
   top: 45%;
-   border: solid .7px transparent;
+  border: solid 0.7px transparent;
 }
 
 .searchBtns2:hover {
@@ -107,9 +104,9 @@ body {
 }
 
 .title {
- position: absolute;
- left: 43%;
- top: 26%;
+  position: absolute;
+  left: 43%;
+  top: 26%;
 }
 
 .bento-menu {
@@ -141,7 +138,7 @@ body {
   border-radius: 35px;
   border-width: 13px;
   position: absolute;
-   left: 91.8%;
+  left: 91.8%;
   bottom: 94.7%;
   opacity: 1;
 }
@@ -153,7 +150,6 @@ body {
   width: 100%;
   position: absolute;
   bottom: 0;
-
 }
 
 .leftFooter {
@@ -163,15 +159,13 @@ body {
   position: relative;
   left: 1%;
   top: 30%;
-    font-size: 14px;
-      margin-left: 12px;
-   
+  font-size: 14px;
+  margin-left: 12px;
 }
 
 .leftFooter:hover {
   cursor: pointer;
   text-decoration: underline;
-
 }
 
 .rightFooter {
@@ -181,8 +175,8 @@ body {
   position: relative;
   left: 71%;
   top: 30%;
-    font-size: 14px;
-    margin-left: 12px;
+  font-size: 14px;
+  margin-left: 12px;
 }
 
 .rightFooter:hover {
@@ -196,9 +190,10 @@ body {
 }
 
 .searchIcon {
-  filter: invert(76%) saturate(3461%) hue-rotate(321deg) brightness(98%) contrast(91%);
-  height: .8rem;
-  width: .8rem;
+  filter: invert(76%) saturate(3461%) hue-rotate(321deg) brightness(98%)
+    contrast(91%);
+  height: 0.8rem;
+  width: 0.8rem;
   position: absolute;
   left: 36%;
   top: 39.3%;
@@ -206,7 +201,7 @@ body {
 }
 
 .signInBtn {
-  background-color: #8AB4F8;
+  background-color: #8ab4f8;
   border: none;
   border-radius: 5%;
   position: absolute;
@@ -234,17 +229,17 @@ body {
 }
 
 .carbonImage {
-  height: .9em;
-  width: .7em;
+  height: 0.9em;
+  width: 0.7em;
   position: relative;
   right: 3.2%;
 }
 
 .thankYouMessage {
   color: #8ab4fb;
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 550;
   position: absolute;
   top: 50%;
-  left: 43.5%;
+  left: 43.3%;
 }
